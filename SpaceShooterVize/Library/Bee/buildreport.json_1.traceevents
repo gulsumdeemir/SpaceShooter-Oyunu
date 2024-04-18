@@ -1,0 +1,477 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1712095337633692, "dur": 2863177, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712095337634093, "dur": 16324, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712095337650420, "dur": 31875, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712095337682299, "dur": 970160, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712095338652462, "dur": 1836460, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712095340488924, "dur": 7944, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712095340498161, "dur": 29, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1712095338441343, "dur": 192080, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1712095338442529, "dur": 58681, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1712095338604440, "dur": 6856, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1712095338611306, "dur": 22107, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1712095338612592, "dur": 20032, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1712095338639366, "dur": 1648, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1712095338638310, "dur": 2734, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712095340498383, "dur": 402, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1712095338702252, "dur":1074, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095338703337, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1712095338703394, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1712095338703412, "dur":348, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1712095338703787, "dur":585, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095338704372, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471186, "dur":390, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471577, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471595, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471600, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471618, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471622, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471634, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471638, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471658, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471662, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471672, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471676, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471689, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471693, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471705, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471709, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471720, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471751, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340471786, "dur":2346, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1712095338704154, "dur":349, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338704503, "dur":5199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338709706, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1712095338709895, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338713495, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1712095338716016, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1712095338716137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338716332, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1712095338719183, "dur":11778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1712095338730991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338731002, "dur":2410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1712095338733458, "dur":6524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338739993, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338742406, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338743759, "dur":5674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338749439, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338749534, "dur":3619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338753197, "dur":7463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338760665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338760675, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338761916, "dur":4592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338766513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338766523, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338768204, "dur":5218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338773426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338773434, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338776800, "dur":4655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338781460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338781471, "dur":8217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338789747, "dur":5881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338795769, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338795784, "dur":3720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338799551, "dur":9069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338808627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338808639, "dur":3069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338811758, "dur":8450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338820215, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338820230, "dur":9016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338829289, "dur":5239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338834536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338834549, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338836894, "dur":9690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338846589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338846600, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338849263, "dur":12702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338861969, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338861980, "dur":10933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338872988, "dur":7113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338880109, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338880125, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338882294, "dur":6255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338888554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338888566, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338890029, "dur":7554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338897587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338897596, "dur":1980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338899622, "dur":6427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338906054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095338906064, "dur":14351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095338920458, "dur":490729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095339411196, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095339411211, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095339413504, "dur":85080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095339498591, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095339499333, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095339501106, "dur":672823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095340173937, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712095340173952, "dur":3559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712095340177585, "dur":293619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712095338705012, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712095338705012, "dur":4717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712095338709729, "dur":12489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1712095338722223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712095338722516, "dur":6084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1712095338728670, "dur":150362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712095338879036, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712095338879121, "dur":6796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712095338885969, "dur":7390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712095338893364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712095338893372, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712095338894926, "dur":11179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712095338906110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712095338906119, "dur":7611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712095338913785, "dur":165928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712095339079720, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712095339079733, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712095339081910, "dur":129247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712095339211164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712095339211177, "dur":21294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712095339232539, "dur":244725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712095339477272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712095339477284, "dur":4327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712095339481664, "dur":456903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712095339938574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712095339938588, "dur":2621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712095339941272, "dur":529904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095338704305, "dur":211, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095338704516, "dur":5232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095338709748, "dur":792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1712095338710644, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095338713457, "dur":2787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1712095338716427, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1712095338716623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095338717437, "dur":2366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1712095338719848, "dur":11192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1712095338731044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095338731053, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1712095338733309, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1712095338733468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095338734948, "dur":11036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1712095338746046, "dur":5577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095338751629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095338751640, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095338753025, "dur":5421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095338758451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095338758461, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095338759852, "dur":5758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095338765615, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095338765627, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095338767319, "dur":5876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095338773199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095338773208, "dur":3163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095338776430, "dur":4163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095338780600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095338780611, "dur":2780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095338783444, "dur":5852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095338789301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095338789310, "dur":8075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095338797431, "dur":292327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095339089767, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095339089794, "dur":3896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095339093773, "dur":382285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095339476066, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095339476080, "dur":5227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095339481371, "dur":72363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095339553742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095339553756, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095339555615, "dur":300236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095339855858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095339855872, "dur":4547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712095339860478, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1712095339860541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095339860604, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1712095339862656, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1712095339862720, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095339862732, "dur":8426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1712095339871227, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1712095339871289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095339871301, "dur":5433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1712095339876797, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1712095339876859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095339876872, "dur":2919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1712095339879850, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1712095339880029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095339880041, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1712095339881521, "dur":13613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1712095339895142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095339895156, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1712095339897095, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1712095339897179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095339897190, "dur":2816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1712095339900066, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1712095339900123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095339900134, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1712095339902077, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1712095339902145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095339902159, "dur":12280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1712095339914512, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1712095339914593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095339914605, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1712095339916406, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1712095339916588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712095339916599, "dur":3392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1712095339920058, "dur":551144, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338704113, "dur":307, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338704428, "dur":5267, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338709705, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1712095338709726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338711256, "dur":389, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1712095338711651, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1712095338711706, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338712028, "dur":3728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1712095338715758, "dur":13399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1712095338729161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338729173, "dur":2689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1712095338731908, "dur":66418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1712095338798345, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338798356, "dur":2293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1712095338800696, "dur":13519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338814220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338814230, "dur":6755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338821035, "dur":6957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338827998, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338828123, "dur":2798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338830962, "dur":6294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338837261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338837295, "dur":8325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338845681, "dur":9663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338855377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338855400, "dur":6239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338861687, "dur":7336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338869027, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338869038, "dur":9097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338878181, "dur":7529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338885719, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338885735, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338887453, "dur":5117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338892576, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338892590, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338894390, "dur":6343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338900739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338900750, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338902201, "dur":89310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095338991532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095338991544, "dur":14606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095339006201, "dur":288595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095339294804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095339294817, "dur":3349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095339298216, "dur":198920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095339497144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095339497158, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095339499153, "dur":493098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095339992260, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712095339992298, "dur":4418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712095339996791, "dur":474380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712095338704480, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712095338704481, "dur":5223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712095338709706, "dur":19135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1712095338728845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712095338728866, "dur":4370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1712095338733288, "dur":57950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize.exe" }}
+,{ "pid":12345, "tid":5, "ts":1712095338791243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712095338791251, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize.exe" }}
+,{ "pid":12345, "tid":5, "ts":1712095338793304, "dur":22169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095338815479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712095338815489, "dur":6782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095338822313, "dur":8314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095338830632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712095338830642, "dur":5152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095338835841, "dur":7053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095338842898, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712095338842924, "dur":6769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095338849738, "dur":6323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095338856066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712095338856075, "dur":12254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095338868378, "dur":8951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095338877333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712095338877340, "dur":5665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095338883050, "dur":20937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095338903994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712095338904007, "dur":3153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095338907207, "dur":231315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095339138527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712095339138539, "dur":32735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095339171327, "dur":357345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095339528679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712095339528693, "dur":3426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095339532178, "dur":283177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095339815363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712095339815378, "dur":2892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095339818337, "dur":544271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095340362616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712095340362629, "dur":2142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712095340364836, "dur":106357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338704538, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338704539, "dur":5160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338709705, "dur":47862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1712095338757573, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338758355, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1712095338759885, "dur":13762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338773650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338773658, "dur":2962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338776676, "dur":5047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338781727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338781735, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338784473, "dur":5468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338789945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338789955, "dur":7923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338797926, "dur":5996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338803930, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338803942, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338805451, "dur":6151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338811610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338811725, "dur":2527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338814293, "dur":6013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338820311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338820319, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338822194, "dur":4888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338827088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338827100, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338830387, "dur":4457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338834849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338834858, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338837069, "dur":6253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338843326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338843336, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338846529, "dur":5893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338852428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338852439, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338853943, "dur":6301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338860252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338860264, "dur":2060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338862385, "dur":5702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338868092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338868103, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338869411, "dur":5320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338874738, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338874750, "dur":3766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338878563, "dur":7671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338886267, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338886283, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338887841, "dur":5346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338893192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338893202, "dur":7862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338901109, "dur":7921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338909039, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095338909056, "dur":4703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095338913811, "dur":126268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095339040086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095339040099, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095339041936, "dur":574825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095339616769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095339616783, "dur":6109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095339622951, "dur":314425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095339937385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712095339937401, "dur":4213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712095339941677, "dur":529496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712095338704685, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712095338704686, "dur":5042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712095338709729, "dur":699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1712095338710432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712095338712793, "dur":3263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1712095338716103, "dur":13395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1712095338729502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712095338729510, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1712095338731707, "dur":680379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712095339412092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712095339412102, "dur":66559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712095339478732, "dur":375907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712095339854647, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712095339854662, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712095339856730, "dur":82679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712095339939415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712095339939428, "dur":8072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712095339947561, "dur":523613, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338704847, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338704847, "dur":4900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338709747, "dur":641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1712095338710392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338712779, "dur":3437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1712095338716264, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1712095338716385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338716394, "dur":2781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1712095338719220, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1712095338719387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338719467, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1712095338720770, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1712095338720888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338720898, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1712095338722819, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1712095338722948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338722955, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1712095338724153, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1712095338724280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338724291, "dur":3192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1712095338727538, "dur":25561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338753103, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338755262, "dur":5645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338760955, "dur":4438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338765400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338765411, "dur":1915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338767394, "dur":5584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338772986, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338772998, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338775534, "dur":5060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338780599, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338780643, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338782280, "dur":6541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338788827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338788838, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338790693, "dur":6716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338797414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338797425, "dur":2740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338800218, "dur":8971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338809195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338809204, "dur":4510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338813782, "dur":6606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338820392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338820400, "dur":9953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338830421, "dur":5168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338835594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338835604, "dur":2257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338837907, "dur":4807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338842721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338842733, "dur":5584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338848379, "dur":12156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338860540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338860551, "dur":8010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338868612, "dur":8696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338877317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338877330, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338878992, "dur":11272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338890269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338890280, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338891726, "dur":5815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338897548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338897589, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338899581, "dur":6370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338905960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095338905972, "dur":13891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095338919910, "dur":216094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095339136011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095339136024, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095339137901, "dur":387144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095339525053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095339525067, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095339527100, "dur":135314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095339662424, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095339662441, "dur":3804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095339666314, "dur":113803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095339780125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095339780139, "dur":2292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095339782487, "dur":684469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095340466963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712095340466977, "dur":4109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Desktop/Yeni klasr/SpaceShooterVize_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712095340471129, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1712095340471133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712095340476493, "dur":3783, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1712095340498900, "dur": 1153, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712095340498137, "dur": 1947, "ph": "X", "name": "Write chrome-trace events", "args": {} },
